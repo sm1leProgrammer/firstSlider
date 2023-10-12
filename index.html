@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Слайдер</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="wrapper">
+        <div class="slider__container">
+            <div class="slider">
+                <img src="images/C++.png" alt="C++">
+            </div>
+
+            <div class="img-info">
+                <div class="item">C++</div>
+                <div class="item">Petrov P.P.</div>
+                <div class="item">CT-31-21</div>
+                <div class="item">png</div>
+            </div>
+
+            <div class="buttons">
+                <button class="btn__prev-img" onclick="btnPrevImg()">Назад</button>
+                <button class="btn__next-img" onclick="btnNextImg()">Вперед</button>
+            </div>
+
+            <div class="minify-images">
+                <div class="allImages">
+                    <img class="allImages-item" src="images/C++.png" alt="">
+                    <img class="allImages-item" src="images/CSharp.png" alt="">
+                    <img class="allImages-item" src="images/Go.png" alt="">
+                    <img class="allImages-item" src="images/Java.png" alt="">
+                    <img class="allImages-item" src="images/JS.png" alt="">
+                    <img class="allImages-item" src="images/Python.png" alt="">
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <script type="text/javascript" src="script.js"></script>
+</body>
+</html>
